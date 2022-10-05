@@ -60,7 +60,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Response: Decodable {
+struct Response: Codable {
     let data: DataSummary
 }
 
