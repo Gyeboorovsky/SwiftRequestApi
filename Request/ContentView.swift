@@ -8,29 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var films: [Film] = []
+    @State var memes: [Meme] = []
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-            Button("fetch films") {
+            Button("fetch memes") {
                 fetchFilms() {
                     response in
-                    films.append(contentsOf: response)
+                    memes.append(contentsOf: response)
                 }
             }
             
-            List(films, id: \.title) { film in
-                /*@START_MENU_TOKEN@*/Text(film.title)/*@END_MENU_TOKEN@*/
+            List(memes, id: \.id) { meme in
+                Text(meme.name)
             }
         }
         .padding()
     }
     
-    func fetchFilms(completionHandler: @escaping([Film]) -> Void) {
-        let url = URL(string: "https://swapi.dev/api/films")
+    func fetchFilms(completionHandler: @escaping([Meme]) -> Void) {
+        let url = URL(string: "https://api.imgflip.com/get_memes") // wrong address do not couses crash
         
         let task = URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
             if let error = error {
@@ -43,8 +43,9 @@ struct ContentView: View {
             }
             
             if let data = data,
-               let filmSummary = try? JSONDecoder().decode(FilmSummary.self, from: data) {
-                completionHandler(filmSummary.results)
+               let
+                memeSummary = try? JSONDecoder().decode(MemeSummary.self, from: data) {
+                completionHandler(memeSummary.data)
             }
         })
         task.resume()
@@ -57,13 +58,9 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct FilmSummary: Codable {
-    let count: Int
-    let results: [Film]
-}
-
-struct Film: Codable{
-    let title: String
+struct MemeSummary: Codable {
+    let success: Int
+    let data: [Meme]
 }
 
 struct Meme: Codable {

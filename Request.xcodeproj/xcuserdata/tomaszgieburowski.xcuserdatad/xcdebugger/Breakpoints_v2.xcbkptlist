@@ -14,8 +14,8 @@
             filePath = "Request/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "fetchFilms(completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -68,33 +68,33 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B21567D2-EC21-4B03-9064-9031302C66B2 - aeaafc9c0c1ca312"
+                  uuid = "B21567D2-EC21-4B03-9064-9031302C66B2 - 35a8eadce4ddcd7d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Film&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Meme&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
                   offsetFromSymbolStart = "1024">
                </Location>
                <Location
-                  uuid = "B21567D2-EC21-4B03-9064-9031302C66B2 - aeaafc9c0c1ca312"
+                  uuid = "B21567D2-EC21-4B03-9064-9031302C66B2 - 35a8eadce4ddcd7d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Film&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Meme&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
                   offsetFromSymbolStart = "1172">
                </Location>
             </Locations>
@@ -116,11 +116,11 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A22CF408-2477-48FE-81E7-0DF5834CE148 - e1fd9e58d4bd3de7"
+                  uuid = "A22CF408-2477-48FE-81E7-0DF5834CE148 - d7e9ec9c4d7243eb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Film&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Meme&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
@@ -131,11 +131,11 @@
                   offsetFromSymbolStart = "264">
                </Location>
                <Location
-                  uuid = "A22CF408-2477-48FE-81E7-0DF5834CE148 - aeaafc9c0c1ca4c4"
+                  uuid = "A22CF408-2477-48FE-81E7-0DF5834CE148 - 35a8eadce4ddcac8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Film&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Request.ContentView.fetchFilms(completionHandler: (Swift.Array&lt;Request.Meme&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
@@ -164,11 +164,11 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "FCE68DBA-A107-42E1-93BB-BF004D2B4DB8 - ddbf39cf46ece91"
+                  uuid = "FCE68DBA-A107-42E1-93BB-BF004D2B4DB8 - 41c62ddee50e39f7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Request.Film&gt;, Swift.String, SwiftUI.Text&gt;&gt;)&gt; in Request.ContentView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Request.Meme&gt;, Swift.Int, SwiftUI.Text&gt;&gt;)&gt; in Request.ContentView.body.getter : some"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
@@ -179,11 +179,11 @@
                   offsetFromSymbolStart = "120">
                </Location>
                <Location
-                  uuid = "FCE68DBA-A107-42E1-93BB-BF004D2B4DB8 - 84ed0f6669e6c9c9"
+                  uuid = "FCE68DBA-A107-42E1-93BB-BF004D2B4DB8 - 462cc0508ec16822"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;Request.Film&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Request.Film&gt;, Swift.String, SwiftUI.Text&gt;&gt;)&gt; in Request.ContentView.body.getter : some"
+                  symbolName = "closure #1 (Swift.Array&lt;Request.Meme&gt;) -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;Request.Meme&gt;, Swift.Int, SwiftUI.Text&gt;&gt;)&gt; in Request.ContentView.body.getter : some"
                   moduleName = "Request"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/tomaszgieburowski/Documents/Programming/Request/Request/ContentView.swift"
@@ -206,8 +206,8 @@
             filePath = "Request/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "fetchFilms(completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
