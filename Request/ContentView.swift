@@ -19,6 +19,7 @@ struct ContentView: View {
                 fetchFilms() {
                     response in
                     memes.append(contentsOf: response)
+                    print("pierwszy mem \(memes[0].name)")
                 }
             }
             
@@ -44,8 +45,9 @@ struct ContentView: View {
             
             if let data = data,
                let
-                memeSummary = try? JSONDecoder().decode(MemeSummary.self, from: data) {
-                completionHandler(memeSummary.data)
+                memesData = try? JSONDecoder().decode(Response.self, from: data) {
+                print("I'm in meme summary")
+                completionHandler(memesData.data.memes)
             }
         })
         task.resume()
@@ -58,17 +60,17 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct MemeSummary: Codable {
-    let success: Int
-    let data: [Meme]
+struct Response: Decodable {
+    let data: DataSummary
+}
+
+struct DataSummary: Codable {
+    let memes: [Meme]
 }
 
 struct Meme: Codable {
     let id: Int
     let name: String
     let url: String
-    let width: Int
-    let height: Int
-    let box_count: Int
 }
 
